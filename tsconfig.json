@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                         /* Specify ECMAScript target version */
+    "module": "ESNext",                       /* Specify module code generation */
+    "moduleResolution": "Node",                 /* Specify module resolution strategy */
+    "strict": true,                             /* Enable all strict type-checking options */
+    "skipLibCheck": true,                       /* Skip type checking of declaration files */
+    "forceConsistentCasingInFileNames": true,    /* Ensure consistent casing in file names */
+    "declaration": true,                        /* Generate corresponding .d.ts files */
+    "declarationDir": "dist",                   /* Output directory for generated declaration files */
+    "esModuleInterop": true,                    /* Enable compatibility with CommonJS and ES modules */
+    "resolveJsonModule": true,                  /* Allow importing JSON files as modules */
+    "outDir": "dist",                           /* Redirect output structure to the directory */
+    "rootDir": "src",                           /* Specify the root directory of input files */
+    "lib": ["ESNext"],                          /* Specify library files to be included */
+    "types": ["node"]                           /* Specify type definitions to be included */
+  },
+  "include": ["src/**/*.ts"],                   /* Specify files to be included in compilation */
+  "exclude": ["node_modules"]                   /* Specify files to be excluded from compilation */
+}
+
+
